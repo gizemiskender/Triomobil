@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btn_current_locations_tab"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000DFF"
+                android:text="@string/navibar_current_loc" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btn_map_tab"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000DFF"
+                android:text="@string/navibar_map" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btn_details_tab"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000DFF"
+                android:text="@string/navibar_details" />
+        </TableRow>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_container_for_fragments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+</LinearLayout>

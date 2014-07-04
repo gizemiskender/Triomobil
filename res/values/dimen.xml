@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="triomobil_30dp_padding">30dp</dimen>
+    <dimen name="triomobil_navigationbar_height">60dp</dimen>
+    <dimen name="triomobil_no_padding">0dp</dimen>
+    <dimen name="triomobil_list_row_size">60dp</dimen>
+    <dimen name="triomobil_10dp_padding">10dp</dimen>
+    <dimen name="triomobil_15dp_padding">15dp</dimen>
+    <dimen name="triomobil_detail_page_text_size">22dp</dimen>
+    <dimen name="triomobil_detail_list_height">50dp</dimen>
+    
+</resources>

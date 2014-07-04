@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TrioMobil</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ss_image_desc">Splash Screen Image</string>
+    <string name="navibar_current_loc">Son Konum</string>
+    <string name="navibar_map">Harita</string>
+    <string name="navibar_details">Ayrıntılar</string>
+    <string name="hint_search">Plaka Ara</string>
+    <string name="btn_search">Search</string>
+    <string name="detail_plate_string">plakalı aracın son konumu</string>
+    <string name="debug">Debug</string>
+    <string name="detail_show_in_the_map">Haritada Göster</string>
+    <string name="detail_block_vehicle">Aracı Bloke Et</string>
+    <string name="detail_list_column">:</string>
+    <string name="date">Tarih</string>
+    <string name="igniter">Kontak</string>
+    <string name="driver">Sürücü</string>
+    <string name="speed">Hız</string>
+    <string name="model">Model</string>
+    <string name="distance">Mesafe</string>
+    <string name="address">Adres</string>
+    <string name="user_name">Kullanıcı Adı</string>
+    <string name="password">Şifre</string>
+   	<string name="enter">Giriş</string>
+   	<string name="API_KEY">AIzaSyA8yRP2pQAvoQAywo0x9YbJtMIuPr2xeOo</string>
+
+</resources>
